@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(232, 19%, 15%);
+  color: whitesmoke;
+  max-width: 1000%;
+}
+.container {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: hsl(232, 19%, 15%);
+  display: grid;
+  justify-items: center;
+  align-items: flex-start;
+}
+.container-content {
+  width: 80%;
+  margin-top: 50px;
+}
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution a:hover,.attribution a:active {
+    color: hsl(192, 74%, 39%);
+  }
+  .title{
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
