@@ -1,5 +1,5 @@
 # Dashoboard-Social-Networks
-[Demo](docs/CONTRIBUTING.md)
+[Demo](https://dashoboard-social-networks.netlify.app/)
 ## Design desktop dark
 ![](https://github.com/jhony2488/Dashoboard-Social-Networks/blob/master/design/active-states-dark.jpg)
 ## Design desktop light
