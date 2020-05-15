@@ -77,4 +77,4 @@ function light() {
 }
 setInterval(()=>{
   document.location.reload(true);
-},2000)
+},60000)

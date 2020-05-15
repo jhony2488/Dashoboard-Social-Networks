@@ -64,6 +64,9 @@
 .down{
   color: red !important;
 }
+.overviewp{
+  color: hsl(228, 34%, 66%);
+}
 @media (max-width: 1000px) {
   .cards {
     min-width: 300px;
