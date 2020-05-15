@@ -40,6 +40,7 @@
 }
 .evolution p {
   margin-left: 7px;
+  color: rgb(68, 192, 68);
 }
 .followers {
   margin-top: -30px;
@@ -59,6 +60,9 @@
 }
 .border-red {
   border-top: 5px solid red;
+}
+.down{
+  color: red !important;
 }
 @media (max-width: 1000px) {
   .cards {

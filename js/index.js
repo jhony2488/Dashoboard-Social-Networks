@@ -1,4 +1,5 @@
 const button = document.getElementById('switch-shadow')
+const mode=document.getElementById('mode')
 let decision = false
 button.onclick = () => {
   decision = !decision
@@ -11,6 +12,7 @@ button.onclick = () => {
 }
 
 function dark() {
+  mode.innerHTML="dark mode"
   const container = document.getElementById('container')
   const body = document.getElementById('body')
   const card1 = document.getElementById('card1')
@@ -42,6 +44,7 @@ function dark() {
   card12.style.backgroundColor = 'hsl(228, 28%, 20%)'
 }
 function light() {
+  mode.innerHTML="light mode"
   const container = document.getElementById('container')
   const body = document.getElementById('body')
   container.style.backgroundColor = 'whitesmoke'
@@ -72,3 +75,6 @@ function light() {
   card11.style.backgroundColor = 'hsl(227, 47%, 96%)'
   card12.style.backgroundColor = 'hsl(227, 47%, 96%)'
 }
+setInterval(()=>{
+  document.location.reload(true);
+},2000)
